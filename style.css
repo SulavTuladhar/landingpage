@@ -2,6 +2,16 @@ body, html {
     height: 100%;   
     margin: 0;
     animation: top 2s;
+    height: 100vm;
+    scroll-behavior: smooth;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    
+    
 }
 
 .svg-top{
@@ -18,7 +28,6 @@ body, html {
     position: fixed;
     background: #0099FF;
     top: 0%;
-    
 }
 
 li{
@@ -51,7 +60,10 @@ li a{
 
 .top{
     margin-top: 8%;
+    width: 100%;
+    height: 100vh;
     color: #ffffff;
+    
     
 }
 
@@ -107,6 +119,7 @@ li a{
     position: relative;
     z-index: -1;
     margin-top: 25rem;
+    height: 100vh;
 }
 
 .detail{
@@ -139,6 +152,7 @@ li a{
     color: #000000;
     position: relative;
     z-index: -1;
+    height: 100vh;
 }
 
 .last-detail{
@@ -219,3 +233,4 @@ input{
       transform: rotateX(0);
   }
 }
+
