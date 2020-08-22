@@ -1,7 +1,7 @@
 body, html {
     height: 100%;   
     margin: 0;
-    
+    animation: top 1s;
 }
 
 .svg-top{
@@ -207,4 +207,15 @@ input{
     border-radius: 25px;
     outline: none;
     cursor: pointer;
+}
+
+@keyframes top {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+  }
+  to{
+      opacity: 1;
+      transform: rotateX(0);
+  }
 }
